@@ -122,7 +122,7 @@ blueprint:
       default: []
       selector:
         action:
-   button_down_triple_press:
+    button_down_triple_press:
       name: Down button triple press
       description: Action to run on triple down button press.
       default: []
@@ -264,4 +264,5 @@ action:
       sequence: !input button_down_quadruple_press
 
     - conditions: '{{ command == ''down_quintuple_press'' }}'
+
       sequence: !input button_down_quintuple_press   
