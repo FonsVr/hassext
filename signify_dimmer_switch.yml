@@ -1,5 +1,5 @@
 blueprint:
-  name: ZHA - Philips Hue Dimmer Switch Config - V2024.11.25
+  name: ZHA - Signify Hue Dimmer Switch Config - V2026.01.03
   description: |
     Control lights with a Philips Hue Dimmer Switch (only RWL020 (US) and RWL021 (EU), RWL022, the one that says 'hue' on the bottom, has a different button layout.)
     
@@ -266,4 +266,5 @@ action:
     - conditions: '{{ command == ''down_quintuple_press'' }}'
 
       sequence: !input button_down_quintuple_press   
+
 
